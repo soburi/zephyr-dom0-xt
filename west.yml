@@ -6,6 +6,8 @@ manifest:
     path: zephyr-dom0-xt
 
   remotes:
+    - name: soburi
+      url-base: https://github.com/soburi/
     - name: xentroops
       url-base: https://github.com/xen-troops/
     - name: zephyrproject-rtos
@@ -17,8 +19,8 @@ manifest:
       revision: zephyr-v3.6.0-xt
       west-commands: scripts/west-commands.yml
     - name: zephyr-xenlib
-      remote: xentroops
-      revision: main
+      remote: soburi
+      revision: migrate-headers-to-module
     - name: fatfs
       remote: zephyrproject-rtos
       revision: 427159bf95ea49b7680facffaa29ad506b42709b
