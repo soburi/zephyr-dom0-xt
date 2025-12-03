@@ -20,7 +20,7 @@ manifest:
       west-commands: scripts/west-commands.yml
     - name: zephyr-xenlib
       remote: soburi
-      revision: migrate-headers-to-module
+      revision: xs-client
     - name: fatfs
       remote: zephyrproject-rtos
       revision: 427159bf95ea49b7680facffaa29ad506b42709b
