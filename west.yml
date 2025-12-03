@@ -15,8 +15,8 @@ manifest:
 
   projects:
     - name: zephyr
-      remote: xentroops
-      revision: zephyr-v3.6.0-xt
+      remote: soburi
+      revision: zephyr-v4.3.0-xt
       west-commands: scripts/west-commands.yml
     - name: zephyr-xenlib
       remote: soburi
